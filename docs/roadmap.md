@@ -12,7 +12,7 @@ The 2020.09 release contains [klever-model-registry][] and [ormb][].
 - Keep track of ML models' hyperparameters and so on to help decision makers
 - Convert models between different formats
 - Extract signatures for the given models
-- Serve the simple models ( single model, without inference graph support ) using Triton Inference Server
+- Serve the simple models ( single model, without inference graph support ) using Triton Inference Server ( via Seldon Core )
 - Support uploading models from the dashboard
 - Get model conversion/extraction job logs and events
 
@@ -33,7 +33,7 @@ The 2020.11 release contains [klever-model-registry][] and [ormb][].
 
 - Support multi-users
 - Provide offline unified batch inference interface
-- Support traffic management for model inference
+- Support traffic management for model inference ( via Seldon Core )
 
 [ormb][] contains two executive programs.
 
